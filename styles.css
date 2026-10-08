@@ -54,3 +54,27 @@
     align-items: center;
 }
 
+#display p {
+    padding-left: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#buttons button {
+    padding: 2vw;
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgb(172, 178, 181);
+    font-size: 1.1rem;
+}
+
+#buttons button:hover {
+    background-color: rgb(158, 169, 172);
+}
