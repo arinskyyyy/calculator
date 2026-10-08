@@ -40,3 +40,17 @@
     font-size: 2rem;
 }
 
+#display {
+    width: 400px;
+    height: 70px;
+    background-color: darkgrey;
+    border: 6px solid rgb(157, 152, 152);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: rgb(103, 111, 115);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
