@@ -19,3 +19,24 @@
     width: 100vw;
 }
 
+#main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65vh;
+    width: 35vw;
+    background-color: rgba(218, 213, 218, 0.9);
+    border: 10px solid rgb(155, 147, 140);
+    border-radius: 40px;
+}
+
+#main-box h2{
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+    color: rgb(119, 109, 100);
+    font-weight: 800;
+    font-size: 2rem;
+}
+
